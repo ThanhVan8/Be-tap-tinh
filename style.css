@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif !important;
+}
+
+form {
+    margin: 10px 20px;
+}
+
+h1.title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.row {
+    align-items: center;
+}
+
+form input[type="text"] {
+    width: 100%;
+}
+
+.col-5.operate-list {
+    display: flex;
+    gap: 16px;
+}
+
+#submitBtn {
+    padding: 1px 10px;
+    border: 1px solid black;
+}
+
+#note {
+    color: red;
+}
+
+#note span {
+    font-style: italic;
+}
